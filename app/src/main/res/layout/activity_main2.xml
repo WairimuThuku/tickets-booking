@@ -26,21 +26,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"/>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:src="@drawable/ic_arrow_back_white_24dp" />
+            android:src="@drawable/back_arrow"
+            app:srcCompat="@drawable/back_arrow" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:src="@drawable/ic_filter" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -65,7 +60,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="260dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/bus_image_2" />
+                android:src="@drawable/aero"
+                app:srcCompat="@drawable/aero" />
 
             <TextView
                 android:id="@+id/textView"
@@ -74,7 +70,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="16dp"
-                android:fontFamily="@font/print_clearly"
+                android:fontFamily="sans-serif"
                 android:text="Select your bus!"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
@@ -93,7 +89,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="45"
-                    android:fontFamily="@font/gotham"
+                    android:fontFamily="sans-serif"
                     android:text="Pune"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
@@ -104,21 +100,20 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:layout_weight="10"
-                    android:src="@drawable/ic_swap_horiz_white_24dp" />
+                    android:src="@drawable/swap_outline"
+                    app:srcCompat="@drawable/swap_outline" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="45"
-                    android:fontFamily="@font/gotham"
-                    android:text="Mumbai"
+                    android:fontFamily="sans-serif"
+                    android:text="NewYork"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
                     android:textSize="18sp" />
 
             </LinearLayout>
-
-
 
 
             <TextView
@@ -127,8 +122,8 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/linearLayout"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/print_clearly"
-                android:text="12th - Feb - 2019 | Tuesday"
+                android:fontFamily="sans-serif"
+                android:text="12th - Feb - 2022 | Tuesday"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp" />
@@ -164,7 +159,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="9:00AM - 12:30PM"
                             android:textColor="#000000"
                             android:textStyle="bold" />
@@ -174,7 +169,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:layout_marginBottom="4dp"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="Expo bus service"
                             android:textColor="#4b4b4b"
                             android:textStyle="bold" />
@@ -182,7 +177,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="A/C Sleeper (2+2)"
                             android:textColor="#8a8a8a" />
 
@@ -198,7 +193,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="$600.00"
                             android:textAlignment="textEnd"
                             android:textColor="#f5a622"
@@ -210,7 +205,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:layout_marginBottom="4dp"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="3.30 Hour"
                             android:textAlignment="textEnd"
                             android:textColor="#b3b3b3" />
@@ -246,7 +241,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="10:00AM - 2:00PM"
                             android:textColor="#000000"
                             android:textStyle="bold" />
@@ -256,7 +251,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:layout_marginBottom="4dp"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="Red Bus service"
                             android:textColor="#4b4b4b"
                             android:textStyle="bold" />
@@ -264,7 +259,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="A/C Sleeper (2+2)"
                             android:textColor="#8a8a8a" />
 
@@ -280,7 +275,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="$560.00"
                             android:textAlignment="textEnd"
                             android:textColor="#f5a622"
@@ -292,7 +287,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:layout_marginBottom="4dp"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="4 Hour"
                             android:textAlignment="textEnd"
                             android:textColor="#b3b3b3" />
@@ -328,7 +323,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="12:15PM - 3:30PM"
                             android:textColor="#000000"
                             android:textStyle="bold" />
@@ -338,7 +333,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:layout_marginBottom="4dp"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="Start service"
                             android:textColor="#4b4b4b"
                             android:textStyle="bold" />
@@ -346,7 +341,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="A/C Sleeper (2+2)"
                             android:textColor="#8a8a8a" />
 
@@ -362,7 +357,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="$450.00"
                             android:textAlignment="textEnd"
                             android:textColor="#f5a622"
@@ -374,7 +369,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:layout_marginBottom="4dp"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="3.15 Hour"
                             android:textAlignment="textEnd"
                             android:textColor="#b3b3b3" />
@@ -410,7 +405,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="3:00PM - 5:45PM"
                             android:textColor="#000000"
                             android:textStyle="bold" />
@@ -420,7 +415,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:layout_marginBottom="4dp"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="Travelo service"
                             android:textColor="#4b4b4b"
                             android:textStyle="bold" />
@@ -428,7 +423,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="A/C Sleeper (2+2)"
                             android:textColor="#8a8a8a" />
 
@@ -444,7 +439,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="$375.00"
                             android:textAlignment="textEnd"
                             android:textColor="#f5a622"
@@ -456,7 +451,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:layout_marginBottom="4dp"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="2.45 Hour"
                             android:textAlignment="textEnd"
                             android:textColor="#b3b3b3" />
@@ -492,7 +487,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="7:00PM - 10:00PM"
                             android:textColor="#000000"
                             android:textStyle="bold" />
@@ -502,7 +497,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:layout_marginBottom="4dp"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="Shuttle bus service"
                             android:textColor="#4b4b4b"
                             android:textStyle="bold" />
@@ -510,7 +505,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="A/C Sleeper (2+2)"
                             android:textColor="#8a8a8a" />
 
@@ -526,7 +521,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="$700.00"
                             android:textAlignment="textEnd"
                             android:textColor="#f5a622"
@@ -538,7 +533,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:layout_marginBottom="4dp"
-                            android:fontFamily="@font/calibri"
+                            android:fontFamily="sans-serif"
                             android:text="3.00 Hour"
                             android:textAlignment="textEnd"
                             android:textColor="#b3b3b3" />
