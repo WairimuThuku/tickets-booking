@@ -31,14 +31,9 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    android:src="@drawable/ic_arrow_back_white_24dp" />
+                    android:src="@drawable/back_arrow"
+                    app:srcCompat="@drawable/back_arrow" />
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:src="@drawable/ic_filter" />
 
             </RelativeLayout>
 
@@ -69,7 +64,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="260dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/bus_image_3" />
+                        android:src="@drawable/airline"
+                        app:srcCompat="@drawable/airline" />
 
                     <TextView
                         android:id="@+id/textView"
@@ -78,7 +74,7 @@
                         android:layout_alignParentTop="true"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="16dp"
-                        android:fontFamily="@font/print_clearly"
+                        android:fontFamily="sans-serif"
                         android:text="Select your bus!"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
@@ -97,7 +93,7 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="45"
-                            android:fontFamily="@font/gotham"
+                            android:fontFamily="sans-serif"
                             android:text="Pune"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
@@ -108,14 +104,15 @@
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
                             android:layout_weight="10"
-                            android:src="@drawable/ic_swap_horiz_white_24dp" />
+                            android:src="@drawable/swap_outline"
+                            app:srcCompat="@drawable/swap_outline" />
 
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="45"
-                            android:fontFamily="@font/gotham"
-                            android:text="Mumbai"
+                            android:fontFamily="sans-serif"
+                            android:text="NewYork"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="18sp" />
@@ -129,8 +126,8 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/linearLayout"
                         android:layout_marginTop="8dp"
-                        android:fontFamily="@font/print_clearly"
-                        android:text="12th - Feb - 2019 | Tuesday"
+                        android:fontFamily="sans-serif"
+                        android:text="12th - Feb - 2022 | Tuesday"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
                         android:textSize="18sp" />
@@ -165,7 +162,7 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/calibri"
+                                    android:fontFamily="sans-serif"
                                     android:text="9:00AM - 12:30PM"
                                     android:textColor="#000000"
                                     android:textStyle="bold" />
@@ -175,7 +172,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="4dp"
                                     android:layout_marginBottom="4dp"
-                                    android:fontFamily="@font/calibri"
+                                    android:fontFamily="sans-serif"
                                     android:text="Expo bus service"
                                     android:textColor="#4b4b4b"
                                     android:textStyle="bold" />
@@ -183,7 +180,7 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/calibri"
+                                    android:fontFamily="sans-serif"
                                     android:text="A/C Sleeper (2+2)"
                                     android:textColor="#8a8a8a" />
 
@@ -199,7 +196,7 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/calibri"
+                                    android:fontFamily="sans-serif"
                                     android:text="$600.00"
                                     android:textAlignment="textEnd"
                                     android:textColor="#f5a622"
@@ -211,7 +208,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="4dp"
                                     android:layout_marginBottom="4dp"
-                                    android:fontFamily="@font/calibri"
+                                    android:fontFamily="sans-serif"
                                     android:text="3.30 Hour"
                                     android:textAlignment="textEnd"
                                     android:textColor="#b3b3b3" />
@@ -257,12 +254,13 @@
                                     android:layout_width="16dp"
                                     android:layout_height="16dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked"
+                                    app:srcCompat="@drawable/booked" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/calibri"
+                                    android:fontFamily="sans-serif"
                                     android:text="Booked"
                                     android:textAlignment="center"
                                     android:textColor="#b2b2b2" />
@@ -280,12 +278,13 @@
                                     android:layout_width="16dp"
                                     android:layout_height="16dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available"
+                                    app:srcCompat="@drawable/available" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/calibri"
+                                    android:fontFamily="sans-serif"
                                     android:text="Available"
                                     android:textAlignment="center"
                                     android:textColor="#b2b2b2" />
@@ -301,12 +300,13 @@
                                     android:layout_width="16dp"
                                     android:layout_height="16dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/your_seat_img" />
+                                    android:src="@drawable/seat"
+                                    app:srcCompat="@drawable/seat" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/calibri"
+                                    android:fontFamily="sans-serif"
                                     android:text="Your Seat"
                                     android:textAlignment="center"
                                     android:textColor="#b2b2b2" />
@@ -332,7 +332,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="16dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="sans-serif"
                                     android:text="1"
                                     android:textColor="#c3c3c3"
                                     android:textSize="18sp"
@@ -343,7 +343,7 @@
                                     android:layout_width="36dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="4dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="A"
                                     android:textAlignment="center"
                                     android:textColor="#c3c3c3"
@@ -354,7 +354,7 @@
                                     android:layout_width="36dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="4dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="B"
                                     android:textAlignment="center"
                                     android:textColor="#c3c3c3"
@@ -374,7 +374,7 @@
                                     android:layout_width="36dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="4dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="C"
                                     android:textAlignment="center"
                                     android:textColor="#c3c3c3"
@@ -385,7 +385,7 @@
                                     android:layout_width="36dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="4dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="D"
                                     android:textAlignment="center"
                                     android:textColor="#c3c3c3"
@@ -413,7 +413,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="16dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="1"
                                     android:textColor="#c3c3c3"
                                     android:textSize="18sp"
@@ -423,13 +423,15 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked"
+                                    app:srcCompat="@drawable/booked" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available"
+                                    app:srcCompat="@drawable/available" />
 
                             </LinearLayout>
 
@@ -443,13 +445,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                             </LinearLayout>
 
@@ -473,7 +475,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="16dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="2"
                                     android:textColor="#c3c3c3"
                                     android:textSize="18sp"
@@ -483,13 +485,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                             </LinearLayout>
 
@@ -503,13 +505,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                             </LinearLayout>
 
@@ -532,7 +534,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="16dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="3"
                                     android:textColor="#c3c3c3"
                                     android:textSize="18sp"
@@ -542,13 +544,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                             </LinearLayout>
 
@@ -562,13 +564,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                             </LinearLayout>
 
@@ -591,7 +593,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="16dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="4"
                                     android:textColor="#c3c3c3"
                                     android:textSize="18sp"
@@ -601,13 +603,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                             </LinearLayout>
 
@@ -621,13 +623,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                             </LinearLayout>
 
@@ -650,7 +652,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="16dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="5"
                                     android:textColor="#c3c3c3"
                                     android:textSize="18sp"
@@ -660,13 +662,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                             </LinearLayout>
 
@@ -686,7 +688,7 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                             </LinearLayout>
 
@@ -709,7 +711,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="16dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="6"
                                     android:textColor="#c3c3c3"
                                     android:textSize="18sp"
@@ -719,13 +721,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                             </LinearLayout>
 
@@ -739,13 +741,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                             </LinearLayout>
 
@@ -768,7 +770,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="16dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="7"
                                     android:textColor="#c3c3c3"
                                     android:textSize="18sp"
@@ -778,13 +780,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                             </LinearLayout>
 
@@ -798,13 +800,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                             </LinearLayout>
 
@@ -827,7 +829,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="16dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="8"
                                     android:textColor="#c3c3c3"
                                     android:textSize="18sp"
@@ -837,13 +839,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                             </LinearLayout>
 
@@ -857,13 +859,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                             </LinearLayout>
 
@@ -886,7 +888,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="16dp"
-                                    android:fontFamily="@font/print_clearly"
+                                    android:fontFamily="casual"
                                     android:text="9"
                                     android:textColor="#c3c3c3"
                                     android:textSize="18sp"
@@ -896,13 +898,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                             </LinearLayout>
 
@@ -916,13 +918,13 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/booked_img" />
+                                    android:src="@drawable/booked" />
 
                                 <ImageView
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginStart="4dp"
-                                    android:src="@drawable/available_img" />
+                                    android:src="@drawable/available" />
 
                             </LinearLayout>
 
