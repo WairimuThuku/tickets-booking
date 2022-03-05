@@ -682,7 +682,8 @@
                                     android:layout_width="36dp"
                                     android:layout_height="36dp"
                                     android:layout_marginEnd="4dp"
-                                    android:src="@drawable/your_seat_img" />
+                                    android:src="@drawable/seat"
+                                    app:srcCompat="@drawable/seat" />
 
                                 <ImageView
                                     android:layout_width="36dp"
