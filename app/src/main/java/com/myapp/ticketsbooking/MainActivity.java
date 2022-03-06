@@ -9,7 +9,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button search_airline;
+    Button search_bus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
-        search_airline = findViewById(R.id.search_airline);
-        search_airline.setOnClickListener(view -> {
+        search_bus = findViewById(R.id.search_buses);
+        search_bus.setOnClickListener(view -> {
             Intent intent = new Intent(getApplicationContext(), Main2Activity.class);
             startActivity(intent);
         });
